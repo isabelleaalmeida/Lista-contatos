@@ -37,7 +37,7 @@ body {
     border-radius: 5px;
     text-align: center;
     box-shadow: 0   2px 8px rgba(0, 0, 0, 2);
-    background-image: url(./assets/imagens/fundo.jpg);
+    background-image: url(./assets/fundo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
