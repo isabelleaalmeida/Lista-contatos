@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    background-color: #dedbd2;
+    margin: 0;
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   
+}
+
+.main-title {
+    color: #4a5759;
+    margin-top: 150px;
+    text-transform: uppercase ;
+}
+
+.list{
+    width: 90%;
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+       
+}
+
+.sub-list{
+    flex-basis: 280px;
+    background-color: #e7ecef;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0   2px 8px rgba(0, 0, 0, 2);
+    background-image: url(./assets/imagens/fundo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sub-list__image img{
+    border-radius: 50%;
+    width:80px;
+    margin-top: 150px;
+    
+}
+
+.sub-list__name{
+    font-size: 24px;
+    margin: 0;
+    color: #4a5759;
+}
+
+.sub-list__email{
+    color:#9d4edd;
+    font-weight: bold;
+}
+
+.sub-list__icons{
+    display: flex;
+    background-color: #e0e1dd;
+    padding: 16px;
+    justify-content: space-evenly;
+    gap: 16px;
+    opacity: .5;
+}
